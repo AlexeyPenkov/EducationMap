@@ -1,13 +1,13 @@
 //
-//  EducationMapUITests.swift
-//  EducationMapUITests
+//  EducationMapsUITests.swift
+//  EducationMapsUITests
 //
-//  Created by Алексей Пеньков on 13.05.2022.
+//  Created by Алексей Пеньков on 17.05.2022.
 //
 
 import XCTest
 
-class EducationMapUITests: XCTestCase {
+class EducationMapsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -27,7 +27,6 @@ class EducationMapUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
 
-        // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
 

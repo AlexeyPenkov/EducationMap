@@ -1,14 +1,14 @@
 //
-//  EducationMapTests.swift
-//  EducationMapTests
+//  EducationMapsTests.swift
+//  EducationMapsTests
 //
-//  Created by Алексей Пеньков on 13.05.2022.
+//  Created by Алексей Пеньков on 17.05.2022.
 //
 
 import XCTest
-@testable import EducationMap
+@testable import EducationMaps
 
-class EducationMapTests: XCTestCase {
+class EducationMapsTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  EducationMap
+//  EducationMaps
 //
-//  Created by Алексей Пеньков on 13.05.2022.
+//  Created by Алексей Пеньков on 17.05.2022.
 //
 
 import UIKit

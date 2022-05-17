@@ -1,13 +1,13 @@
 //
-//  EducationMapUITestsLaunchTests.swift
-//  EducationMapUITests
+//  EducationMapsUITestsLaunchTests.swift
+//  EducationMapsUITests
 //
-//  Created by Алексей Пеньков on 13.05.2022.
+//  Created by Алексей Пеньков on 17.05.2022.
 //
 
 import XCTest
 
-class EducationMapUITestsLaunchTests: XCTestCase {
+class EducationMapsUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
