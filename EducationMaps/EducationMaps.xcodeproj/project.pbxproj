@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7313D6B2CAF60901AFB65509 /* Pods_EducationMapsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FABE6C353DD2A509BEC5529D /* Pods_EducationMapsTests.framework */; };
+		8C2ACC3D3C87DD5DD50F9FD5 /* Pods_EducationMaps_EducationMapsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B647AF426EFE553E1B79E0F2 /* Pods_EducationMaps_EducationMapsUITests.framework */; };
 		BCD6C19928333EA00047223C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C19828333EA00047223C /* AppDelegate.swift */; };
 		BCD6C19B28333EA00047223C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C19A28333EA00047223C /* SceneDelegate.swift */; };
 		BCD6C19D28333EA00047223C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C19C28333EA00047223C /* ViewController.swift */; };
@@ -16,6 +18,12 @@
 		BCD6C1B028333EA00047223C /* EducationMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C1AF28333EA00047223C /* EducationMapsTests.swift */; };
 		BCD6C1BA28333EA00047223C /* EducationMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C1B928333EA00047223C /* EducationMapsUITests.swift */; };
 		BCD6C1BC28333EA00047223C /* EducationMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C1BB28333EA00047223C /* EducationMapsUITestsLaunchTests.swift */; };
+		BCD6C209283394B90047223C /* Pods_EducationMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */; };
+		BCD6C20A283394B90047223C /* Pods_EducationMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCD6C20E283394F90047223C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C20C283394F30047223C /* MapKit.framework */; };
+		BCD6C20F283394F90047223C /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C20C283394F30047223C /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BCD6C211283395020047223C /* Pods_EducationMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C210283395020047223C /* Pods_EducationMaps.framework */; };
+		BCD6C212283395020047223C /* Pods_EducationMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C210283395020047223C /* Pods_EducationMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +43,29 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD6C20B283394B90047223C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BCD6C20F283394F90047223C /* MapKit.framework in Embed Frameworks */,
+				BCD6C212283395020047223C /* Pods_EducationMaps.framework in Embed Frameworks */,
+				BCD6C20A283394B90047223C /* Pods_EducationMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0174BB67801C9971C72AC5F3 /* Pods-EducationMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMaps.release.xcconfig"; path = "Target Support Files/Pods-EducationMaps/Pods-EducationMaps.release.xcconfig"; sourceTree = "<group>"; };
+		066EF488248CEFF500D6E097 /* Pods-EducationMapsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMapsTests.debug.xcconfig"; path = "Target Support Files/Pods-EducationMapsTests/Pods-EducationMapsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B32CEAD9E27B9DD17625CC2 /* Pods-EducationMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMaps.debug.xcconfig"; path = "Target Support Files/Pods-EducationMaps/Pods-EducationMaps.debug.xcconfig"; sourceTree = "<group>"; };
+		9E37047319889E95999538FC /* Pods-EducationMaps-EducationMapsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMaps-EducationMapsUITests.release.xcconfig"; path = "Target Support Files/Pods-EducationMaps-EducationMapsUITests/Pods-EducationMaps-EducationMapsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A200931C458EB1F3D0D6E33F /* Pods-EducationMapsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMapsTests.release.xcconfig"; path = "Target Support Files/Pods-EducationMapsTests/Pods-EducationMapsTests.release.xcconfig"; sourceTree = "<group>"; };
+		B647AF426EFE553E1B79E0F2 /* Pods_EducationMaps_EducationMapsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EducationMaps_EducationMapsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD6C19528333EA00047223C /* EducationMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD6C19828333EA00047223C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCD6C19A28333EA00047223C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +79,11 @@
 		BCD6C1B528333EA00047223C /* EducationMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EducationMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCD6C1B928333EA00047223C /* EducationMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationMapsUITests.swift; sourceTree = "<group>"; };
 		BCD6C1BB28333EA00047223C /* EducationMapsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationMapsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCD6C20C283394F30047223C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BCD6C210283395020047223C /* Pods_EducationMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_EducationMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EducationMaps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7C1539D0D21CA186C85A3A6 /* Pods-EducationMaps-EducationMapsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EducationMaps-EducationMapsUITests.debug.xcconfig"; path = "Target Support Files/Pods-EducationMaps-EducationMapsUITests/Pods-EducationMaps-EducationMapsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FABE6C353DD2A509BEC5529D /* Pods_EducationMapsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EducationMapsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +91,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCD6C20E283394F90047223C /* MapKit.framework in Frameworks */,
+				BCD6C211283395020047223C /* Pods_EducationMaps.framework in Frameworks */,
+				BCD6C209283394B90047223C /* Pods_EducationMaps.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7313D6B2CAF60901AFB65509 /* Pods_EducationMapsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C2ACC3D3C87DD5DD50F9FD5 /* Pods_EducationMaps_EducationMapsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +123,8 @@
 				BCD6C1AE28333EA00047223C /* EducationMapsTests */,
 				BCD6C1B828333EA00047223C /* EducationMapsUITests */,
 				BCD6C19628333EA00047223C /* Products */,
+				CA9A0C6B5CD1BB651AF0422C /* Pods */,
+				E353D0E89DAB6BDD75DDD856 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +169,31 @@
 			path = EducationMapsUITests;
 			sourceTree = "<group>";
 		};
+		CA9A0C6B5CD1BB651AF0422C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B32CEAD9E27B9DD17625CC2 /* Pods-EducationMaps.debug.xcconfig */,
+				0174BB67801C9971C72AC5F3 /* Pods-EducationMaps.release.xcconfig */,
+				F7C1539D0D21CA186C85A3A6 /* Pods-EducationMaps-EducationMapsUITests.debug.xcconfig */,
+				9E37047319889E95999538FC /* Pods-EducationMaps-EducationMapsUITests.release.xcconfig */,
+				066EF488248CEFF500D6E097 /* Pods-EducationMapsTests.debug.xcconfig */,
+				A200931C458EB1F3D0D6E33F /* Pods-EducationMapsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E353D0E89DAB6BDD75DDD856 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD6C210283395020047223C /* Pods_EducationMaps.framework */,
+				BCD6C20C283394F30047223C /* MapKit.framework */,
+				BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */,
+				B647AF426EFE553E1B79E0F2 /* Pods_EducationMaps_EducationMapsUITests.framework */,
+				FABE6C353DD2A509BEC5529D /* Pods_EducationMapsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD6C1BF28333EA00047223C /* Build configuration list for PBXNativeTarget "EducationMaps" */;
 			buildPhases = (
+				880595A8BA542CE8120FB6AE /* [CP] Check Pods Manifest.lock */,
 				BCD6C19128333EA00047223C /* Sources */,
 				BCD6C19228333EA00047223C /* Frameworks */,
 				BCD6C19328333EA00047223C /* Resources */,
+				CDED70E39B67E745F474210E /* [CP] Copy Pods Resources */,
+				BCD6C20B283394B90047223C /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD6C1C228333EA00047223C /* Build configuration list for PBXNativeTarget "EducationMapsTests" */;
 			buildPhases = (
+				C01E5345B9FAED1A0BF17B74 /* [CP] Check Pods Manifest.lock */,
 				BCD6C1A728333EA00047223C /* Sources */,
 				BCD6C1A828333EA00047223C /* Frameworks */,
 				BCD6C1A928333EA00047223C /* Resources */,
@@ -169,9 +240,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCD6C1C528333EA00047223C /* Build configuration list for PBXNativeTarget "EducationMapsUITests" */;
 			buildPhases = (
+				00C4601F4C9018396253D1B4 /* [CP] Check Pods Manifest.lock */,
 				BCD6C1B128333EA00047223C /* Sources */,
 				BCD6C1B228333EA00047223C /* Frameworks */,
 				BCD6C1B328333EA00047223C /* Resources */,
+				BF0EA58B8734E2C048A8DDA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +325,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00C4601F4C9018396253D1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EducationMaps-EducationMapsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		880595A8BA542CE8120FB6AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EducationMaps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0EA58B8734E2C048A8DDA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EducationMaps-EducationMapsUITests/Pods-EducationMaps-EducationMapsUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EducationMaps-EducationMapsUITests/Pods-EducationMaps-EducationMapsUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EducationMaps-EducationMapsUITests/Pods-EducationMaps-EducationMapsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01E5345B9FAED1A0BF17B74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EducationMapsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDED70E39B67E745F474210E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EducationMaps/Pods-EducationMaps-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EducationMaps/Pods-EducationMaps-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EducationMaps/Pods-EducationMaps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BCD6C19128333EA00047223C /* Sources */ = {
@@ -432,12 +608,14 @@
 		};
 		BCD6C1C028333EA00047223C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B32CEAD9E27B9DD17625CC2 /* Pods-EducationMaps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6577GL836W;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EducationMaps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -445,6 +623,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +639,7 @@
 		};
 		BCD6C1C128333EA00047223C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0174BB67801C9971C72AC5F3 /* Pods-EducationMaps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +653,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +669,7 @@
 		};
 		BCD6C1C328333EA00047223C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 066EF488248CEFF500D6E097 /* Pods-EducationMapsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +690,7 @@
 		};
 		BCD6C1C428333EA00047223C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A200931C458EB1F3D0D6E33F /* Pods-EducationMapsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +711,7 @@
 		};
 		BCD6C1C628333EA00047223C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C1539D0D21CA186C85A3A6 /* Pods-EducationMaps-EducationMapsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +730,7 @@
 		};
 		BCD6C1C728333EA00047223C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E37047319889E95999538FC /* Pods-EducationMaps-EducationMapsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
