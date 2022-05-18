@@ -19,7 +19,7 @@
 		BCD6C1BA28333EA00047223C /* EducationMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C1B928333EA00047223C /* EducationMapsUITests.swift */; };
 		BCD6C1BC28333EA00047223C /* EducationMapsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD6C1BB28333EA00047223C /* EducationMapsUITestsLaunchTests.swift */; };
 		BCD6C209283394B90047223C /* Pods_EducationMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */; };
-		BCD6C20A283394B90047223C /* Pods_EducationMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BCD6C20A283394B90047223C /* Pods_EducationMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF3A72CB2E2C712333B458EE /* Pods_EducationMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BCD6C20E283394F90047223C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C20C283394F30047223C /* MapKit.framework */; };
 		BCD6C20F283394F90047223C /* MapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C20C283394F30047223C /* MapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		BCD6C211283395020047223C /* Pods_EducationMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD6C210283395020047223C /* Pods_EducationMaps.framework */; };
